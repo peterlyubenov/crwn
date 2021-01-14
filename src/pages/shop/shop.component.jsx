@@ -3,8 +3,6 @@ import React, { Component } from 'react';
 import collections from "./shop.data";
 import CollectionPreview from '../../components/collection-preview/collection-preview.component';
 
-import { withRouter } from 'react-router-dom';
-
 class ShopPage extends Component {
     constructor(props) {
         super(props);
@@ -22,4 +20,4 @@ class ShopPage extends Component {
     }
 }
  
-export default withRouter(ShopPage);
+export default ShopPage;
