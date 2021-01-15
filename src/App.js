@@ -18,9 +18,10 @@ class App extends React.Component {
   componentDidMount() {
     this.unsubscribeFromAuth = auth.onAuthStateChanged(user => {
       this.setState({ currentUser: user });
+      this.props.history.push('/');
     })
 
-    this.props.history.push('/');
+    // console.log(this.props.history);
   }
 
   unsubscribeFromAuth = null;
