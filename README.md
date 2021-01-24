@@ -4,7 +4,7 @@ The front-end for an imaginary clothing store, written with [React](https://gith
 
 ## How to try it out
 ### Method 1 - Online
-(Will update once it is deployed)
+Visit the deployed build [here](https://peaceful-einstein-8164e6.netlify.app/)
 
 ### Method 2 - Locally
 1. Clone this repository using git `git clone https://github.com/peterlyubenov/crwn`
